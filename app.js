@@ -1,8 +1,6 @@
 var btnRun = document.getElementById("btn");
 var resultValue = document.getElementById("result");
 
-
-
 btnRun.addEventListener("click", function () {
 
     var metin = "";
