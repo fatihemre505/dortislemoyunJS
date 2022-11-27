@@ -14,6 +14,14 @@ number1 = document.getElementById("number1");
 number2 = document.getElementById("number2");
 operator = document.getElementById("operator");
 
+document.addEventListener("keypress", function (e) {
+
+    if (e.key == "Enter") {
+        window.location.reload();
+    }
+
+
+})
 
 window.onload = function () {
 
