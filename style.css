@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 1200px;
     height: 700px;
     border: 5px solid #000;
     margin: auto;
@@ -34,7 +34,7 @@ body {
 
 .container h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 300;
@@ -44,7 +44,7 @@ body {
 }
 
 .container-operator {
-    width: 80%;
+    width: 400px;
     height: 100px;
     text-align: center;
     display: flex;
@@ -64,13 +64,20 @@ body {
 }
 
 .container-answer input {
-    width: 540px;
+    width: 200px;
     height: 90px;
     text-align: center;
     background: transparent;
     border-radius: 20px;
     font-size: 3rem;
     border: 5px solid #000;
+    transition: 500ms all ease-in-out;
+}
+
+.container-answer input:focus {
+    width: 350px;
+    background: blue;
+    color: #fff;
 }
 
 .container-answer input::placeholder {
